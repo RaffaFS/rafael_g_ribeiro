@@ -29,6 +29,10 @@ body{
         height: 100vh;
         position: relative;
 
+        @media(max-width: 768px){
+            height: 92vh;
+        }
+
         .content_box{
             max-width: 720px;
             padding: 16px;
@@ -196,8 +200,15 @@ body{
                     gap: 16px;
                 }
             }
-            .btn{
-                margin: 0 auto;
+
+            .btn_box{
+                @media(max-width: 768px){
+                    margin-bottom: 16px;
+                }
+
+                .btn{
+                    margin: 0 auto;
+                }
             }
         }
         .hidden{
