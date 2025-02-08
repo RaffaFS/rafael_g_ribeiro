@@ -53,7 +53,7 @@ body{
                 font-size: 32px;
                 font-weight: 400;
                 letter-spacing: 4px;
-                text-shadow: #000 0px 1px 2px;
+                text-shadow: #000 0px 0px 4px;
                 
                 @media(max-width: 768px){
                     text-align: center;
@@ -62,7 +62,7 @@ body{
             .mainTitle{
                 font-family: "Abel", sans-serif;
                 font-size: 80px;
-                text-shadow: #000 0px 2px 2px;
+                text-shadow: #008899 0px 0px 8px;
                 
                 @media(max-width: 768px){
                     text-align: center;
@@ -71,7 +71,7 @@ body{
             .description{
                 margin-bottom: 32px;
                 text-align: justify;
-                text-shadow: #000 0px 1px 2px;
+                text-shadow: #000 0px 0px 4px;
 
                 strong{
                     letter-spacing: 2px;
@@ -91,7 +91,7 @@ body{
                 }
 
                 .btn{
-                    background-color: transparent;
+                    background-color: #00889944;
                     padding: 8px 32px;
                     border: solid 2px #fff;
                     font-size: 16px;
@@ -100,7 +100,7 @@ body{
                     
                     &:hover{
                         transform: scale(1.04);
-                        box-shadow: 0 0 8 #fff;
+                        box-shadow: 0 0 8 2 #008899;
                         background: #fff;
                         color: #000;
                     }
@@ -113,7 +113,7 @@ body{
                     }
 
                     &:hover{
-                        background-color: #002;
+                        background-color: #00889944;
                         
                         a{
                             color: #fff;
