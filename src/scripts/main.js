@@ -27,3 +27,9 @@ function projects(){
     ctBox1.classList.add('hidden')
     ctBox3.classList.remove('hidden2')
 }
+
+document.addEventListener('keydown', (e) => {
+    if(e.key === 'Tab') {
+        e.preventDefault();
+    }
+});
